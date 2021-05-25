@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#7222"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<!--    n ems = n ширин буквы М-->
+
+    <EditText
+        android:id="@+id/editText_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:hint="enter first name here"
+        android:inputType="textPersonName"
+        android:text="Кузьмин"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:hint="enter second name here"
+        android:inputType="textPersonName"
+        android:text="Константин"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:hint="enter last name here"
+        android:inputType="textPersonName"
+        android:text="Владимирович"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:hint="enter your phone"
+        android:inputType="phone"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:inputType="number"
+        android:text="324"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:hint="enter password here"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+        android:text="asd@asd.ru"
+        android:textSize="20sp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClick"
+        android:selectedWeekBackgroundColor="#ff0000"
+        android:weekNumberColor="#0000ff"
+        android:weekSeparatorLineColor="#00ff00" />
+</LinearLayout>
